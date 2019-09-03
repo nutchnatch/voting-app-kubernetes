@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: worker-app
-      image: ddockersamples/examplevotingapp_worker
+      image: dockersamples/examplevotingapp_worker
       ports:
       - containerPort: 80
